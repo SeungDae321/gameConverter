@@ -1,0 +1,109 @@
+*{
+    /* font-family: 'Times New Roman', Times, serif; */
+    text-align: center;
+    
+}
+
+body{
+    background-color: black;
+    background-image: url(sampleimg.jpg);
+    background-size:1200px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:30%;
+    display: flex;
+    justify-content:center ;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    text-decoration: none;
+    max-width: 9em;
+    max-height: 10vh;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgba(0, 153, 255, 0.59);
+    transition: 1.2s;
+}
+input:hover{
+    border-width: 10px;
+}
+
+button{
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: rgba(240, 248, 255, 0.537);
+    transition: 1.2s;
+}
+ button:hover{
+    background-color: rgba(6, 44, 212, 0.641);
+ }
+
+.realContainer{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(122, 74, 206, 0.403);
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 38%;
+}
+
+.container{
+    background-color: rgba(100, 54, 186, 0.6);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.container:hover{
+    background-color: rgba(244, 98, 0, 0.79);
+   
+}
+
+.subsection.header{
+    color: red;
+    background-color: rgba(255, 228, 196, 0.601);
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 750;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.subsection.header:hover{
+    background-color: rgb(255, 228, 196);
+}
+.subsection{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+.tsn:hover{
+    background-color: rgba(68, 35, 158, 0.692);
+    border-radius: 20px;
+}
+.tsn:active{
+    background-color: rgba(137, 43, 226, 0.5);
+    transition: 0.2s;
+}
+
+.fizzbuzz:hover{
+    background-color: rgba(68, 35, 158, 0.692);
+    border-radius: 20px;
+    transition: 0.6s;
+}
+.fizzbuzz:active{
+    background-color: rgba(137, 43, 226, 0.5);
+    transition: 0.2s;
+}
